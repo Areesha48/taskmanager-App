@@ -6,7 +6,6 @@ import TaskInput from "@/components/TaskInput";
 import TaskFilters from "@/components/TaskFilters";
 import TaskList from "@/components/TaskList";
 import ThemeToggle from "@/components/ThemeToggle";
-import QRCode from "@/components/QRCode";
 import { Button } from "@/components/ui/button";
 import { Task } from "@/types/task";
 import { toast } from "sonner";
@@ -156,7 +155,9 @@ const Index = () => {
           {showQRCode && (
             <aside className="hidden md:block">
               <div className="sticky top-6">
-                <QRCode />
+              <img src="\public\qr-code (1).png" alt="QR Code" className="w-40 h-40 mx-auto border bg-gray-200" />
+
+
                 <p className="text-sm text-muted-foreground mt-4">
                   Scan this QR code with your mobile device to access the mobile version of this app.
                 </p>
