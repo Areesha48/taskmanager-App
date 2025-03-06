@@ -155,7 +155,7 @@ const Index = () => {
           {showQRCode && (
             <aside className="hidden md:block">
               <div className="sticky top-6">
-              <img src="\public\qr-code (1).png" alt="QR Code" className="w-40 h-40 mx-auto border bg-gray-200" />
+              <img src="\qr-code (1).png" alt="QR Code" className="w-40 h-40 mx-auto border bg-gray-200" />
 
 
                 <p className="text-sm text-muted-foreground mt-4">
